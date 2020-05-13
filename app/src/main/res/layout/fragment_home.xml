@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".Fragments.HomeFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/NSV"
+        android:fillViewport="false">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+         <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+             android:id="@+id/homeIVbg"
+             android:src="@drawable/train_bg1"/>
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="180dp"
+                android:id="@+id/oneIV"
+                android:layout_below="@+id/homeIVbg"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/train1"
+                />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="180dp"
+                android:id="@+id/oneTV"
+                android:text="@string/trainslogan1"
+                android:layout_toRightOf="@+id/oneIV"
+                android:layout_below="@id/homeIVbg"
+                android:layout_marginTop="20dp"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                android:gravity="center"
+                />
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="180dp"
+                android:id="@+id/twoIV"
+                android:layout_below="@+id/oneIV"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/train2"
+                />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="180dp"
+                android:id="@+id/twoTV"
+                android:text="@string/trainslogan1"
+                android:layout_toRightOf="@+id/twoIV"
+                android:layout_below="@id/oneTV"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                android:gravity="center"
+                />
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="180dp"
+                android:id="@+id/threeIV"
+                android:layout_below="@+id/twoIV"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/train3"
+                />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="180dp"
+                android:id="@+id/threeTV"
+                android:text="@string/trainslogan1"
+                android:layout_toRightOf="@+id/threeIV"
+                android:layout_below="@id/twoTV"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                android:gravity="center"
+                />
+
+        </RelativeLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</FrameLayout>

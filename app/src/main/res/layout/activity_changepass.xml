@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/track"
+    tools:context=".changepass">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:background="@drawable/background_singnin_signup"
+        android:layout_centerInParent="true">
+
+    <EditText
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/oldpassword"
+        android:hint="Old Password"
+        android:background="@drawable/button_bg"
+        android:maxLines="1"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:padding="15dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newpassword"
+        android:layout_below="@id/oldpassword"
+        android:hint="New Password"
+        android:background="@drawable/button_bg"
+        android:maxLines="1"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:padding="15dp"
+        android:inputType="textPassword"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/retypepass"
+        android:layout_below="@id/newpassword"
+        android:hint="Retype Password"
+        android:background="@drawable/button_bg"
+        android:maxLines="1"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:padding="15dp"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/retypepass"
+        android:id="@+id/save"
+        android:text="Save"
+        android:layout_centerInParent="true"
+        android:layout_margin="40dp"
+        android:textStyle="bold|italic"
+        android:background="@drawable/button_bg"
+
+        />
+    </RelativeLayout>
+
+</RelativeLayout>

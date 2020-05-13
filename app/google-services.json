@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "722825756051",
+    "firebase_url": "https://train-booking-system-6bb9c.firebaseio.com",
+    "project_id": "train-booking-system-6bb9c",
+    "storage_bucket": "train-booking-system-6bb9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722825756051:android:4aac7cba5c28e8727d3c66",
+        "android_client_info": {
+          "package_name": "com.example.train_booking_system"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722825756051-gjfhnh36dhjuo1u50fo5ijl5fj78ag0b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.train_booking_system",
+            "certificate_hash": "d595bb55d4ec3c43de9c00f2bd4477f2ddf5680d"
+          }
+        },
+        {
+          "client_id": "722825756051-0sk997gfvjk31fmvv2l3qgvbc2catnj6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5zm-MSoHChszyyw6o03i6PkxRIeJnt_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722825756051-0sk997gfvjk31fmvv2l3qgvbc2catnj6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Train_Booking_System</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="trainslogan1">A train is a form of rail transport consisting of a series of connected vehicles that generally run along a railroad or railway track to transport passengers or cargo also known as freight or goods.</string>
+</resources>
